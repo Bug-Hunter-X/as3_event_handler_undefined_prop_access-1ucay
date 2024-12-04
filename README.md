@@ -1,0 +1,1 @@
+This example demonstrates a common ActionScript error: attempting to access properties of an object that may not exist.  The `handleComplete` function assumes the `event.target.data` object always has 'name' and 'value' properties. If this isn't true, it will throw an error. The solution introduces robust error handling to prevent crashes.
